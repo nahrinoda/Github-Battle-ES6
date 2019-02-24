@@ -7,6 +7,9 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
+    ],
+    "plugins": [
+      "transform-class-properties"
     ]
   },
   "scripts": {
@@ -27,6 +30,7 @@
   },
   "homepage": "https://github.com/nahrinoda/reactjs-bootcamp#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "axios": "^0.18.0",
     "prop-types": "^15.7.2",
     "query-string": "^6.2.0",
@@ -39,6 +43,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "css-loader": "^1.0.0",
     "firebase-tools": "^6.3.1",
     "html-webpack-plugin": "^3.2.0",
